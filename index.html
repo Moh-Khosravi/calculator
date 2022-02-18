@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f6629d0bf1.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <main id="main" class="light">
+    <div id="output">
+      <p id="lastEquation"></p>
+      <p id="preValue"></p>
+      <p id="currentValue">0</p>
+    </div>
+    <label class="switch">
+      <input type="checkbox" id="inputSwitch">
+      <span class="slider round"></span>
+      <span id="iconTheme" class="material-icons">light_mode</span>
+    </label>
+    <div id="container">
+      <button id="clear" class="btnLight-clearAll">C</button>
+      <button id="power2" class="btnLight-brown">x<sup>2</sup></button>
+      <button id="pi" class="btnLight-brown">&#120587;</button>
+      <button id="multiply" class="operation btnLight-operator" value="x">x</button>
+      <button id="root" class="btnLight-brown">&#8730;</button>
+      <button id="percent" class="btnLight-brown">%</button>
+      <button id="plusminus" class="btnLight-brown">&#177;</button>
+      <button id="divide" class="operation btnLight-operator" value="/">&#247;</button>
+      <button id="seven" class="number btnLight" value="7">7</button>
+      <button id="eight" class="number btnLight" value="8">8</button>
+      <button id="nine" class="number btnLight" value="9">9</button>
+      <button id="minus" class="operation btnLight-operator" value="-">-</button>
+      <button id="four" class="number btnLight" value="4">4</button>
+      <button id="five" class="number btnLight" value="5">5</button>
+      <button id="six" class="number btnLight" value="6">6</button>
+      <button id="plus" class="operation btnLight-operator" value="+">+</button>
+      <button id="one" class="number btnLight" value="1">1</button>
+      <button id="two" class="number btnLight" value="2">2</button>
+      <button id="three" class="number btnLight" value="3">3</button>
+      <button id="equal" class="btnLight-equal">=</button>
+      <button id="zero" class="number btnLight" value="0">0</button>
+      <button id="point" class="number btnLight" value=".">.</button>
+      <button id="backspace" class="btnLight"><i class="fas fa-backspace"></i></button>
+    </div>
+  </main>
+  <script src="index-function.js"></script>
+</body>
+</html>
